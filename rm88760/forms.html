@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMULARIOS</title>
+    <link rel="stylesheet" href="./css/estilo.css" type="text/css">
+</head>
+<body>
+    <div id='container'>
+        <header class=cabecalho>
+            <div>
+                <img src="./img/banner-form-1.jpg" alt="FIAP" class="logo">
+                <nav class='menu'>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Sobre</a></li>
+                        <li><a href="#">Notícias</a></li>
+                        <li><a href="#">Contato</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <section class="Conteudo">
+            <div class="box">
+                <div class="frm-01">
+                <form action="./forms.html" method="GET">
+                    <fieldset>
+                        <legend>Dados pessoais</legend>
+                        <div>
+                        <label for="idtxtNm" class="ark">Nome:</label>
+                        <input type="text" name="txtNm" id="idtxtNm" 
+                        oninvalid="setCustomValidity('É obrigatorio preenchimento deste campo.')"
+                         required> 
+                        </div>
+                        <div>
+                            <label for="idtxtNm" class="ark" >Endereço:</label>
+                        <input type="text" name="txtEn" id="idtxtEn" 
+                        oninvalid="setCustomValidity('É obrigatorio preenchimento deste campo.')"
+                         required> 
+                        </div>
+                        <div>
+                            <label for="idtxtCid" class="ark" >Cidade:</label>
+                            <input type="text" name="txtCid" id="idtxtCid" 
+                            oninvalid="setCustomValidity('É obrigatorio preenchimento deste campo.')"
+                            required>  
+                        </div>
+                        <label for="idSelEstados">Estado:</label>
+                                <select name="selEstados" id="idSelEstados" required>
+                                    <option value="v">Selecione uma opção</option>
+                                    <option value="rj">Rio de janeiro</option>
+                                    <option value="sc">Santa Catarina</option>
+                                    <option value="ba">Bahia</option>
+                                    <option value="sp">São Paulo</option>
+                                    <option value="am">Amazonas</option>
+                                </select>
+                        <div>
+                        </div>s
+                    </fieldset>
+                    <fieldset>
+                        <legend>Dados pessoais</legend>
+                        <div class="radio" style="white-space:nowrap"> 
+                            <legend>Natureza do cargo</legend>
+                            <div >
+                                <label for="idRdGeren"> Gerência</label value="ger">
+                                    <input type="radio" name="rdbCarg" id="idRdGeren" required>
+                            </div>
+                            <div>
+                                <label for="idRdFinc">   Financeiro</label>
+                                <input type="radio" name="rdbCarg" id="idRdFinc" value="fnc" required>
+                            </div>
+                            <div>
+                                <label for="idRdRecp">  Recepção</label>
+                                <input type="radio" name="rdbCarg" id="idRdRecp"  value="rcp" required>
+                            </div>
+                            <div>
+                                <label for="idRdAdmin"> Administração</label value="adm">
+                                    <input type="radio" name="rdbCarg" id="idRdAdmin" required>
+                            </div>
+                            <div>
+                                <label for="idRdJury">Júridico</label value="jur">
+                                    <input type="radio" name="rdbCarg" id="idRdJury" required>
+                            </div>
+                            <div id="radio">
+                                <legend>Área de interesse</legend>
+                                <div>
+                                    <label for="idRdCompt"> <input type="radio" name="rdbIntrs" id="idRdCompt" required>Computação</label value="cmp">
+                                   
+                                </div>
+                                <div>
+                                    <label for="idRdBiog"><input type="radio" name="rdbIntrs" id="idRdBiog" value="bio" required> Biologia</label>
+                                    
+                                </div>
+                                <div>
+                                    <label for="idRdMeab"> <input type="radio" name="rdbIntrs" id="idRdMeab"  value="mab" required>Meio Ambiente</label>
+                                   
+                                </div>
+                                <div>
+                                    <label for="idRdEngh"> <input type="radio" name="rdbIntrs" id="idRdEngh" required>Engenharia</label value="eng">
+                                   
+                                </div>
+                                <div>
+                                    <label for="idRdHist"><input type="radio" name="rdbIntrs" id="idRdHist" required>Historia</label value="hst">
+                                    
+                                </div>
+                                <div>
+                                    <label for="idtxtCr">Mini-curriculo.</label><br>
+                                    <input type="text" name="txtCr" id="idtxtCr" 
+                                    oninvalid="setCustomValidity('É obrigatorio preenchimento deste campo.')"
+                                     required> 
+                                </div>
+                                
+                            </div>
+                        </div>      
+                    </fieldset>
+                    <div>
+                        <input type="submit" value="ENVIAR">
+                    </div>
+                    <div>
+                        <input type="reset"  value="Limpar">
+                    </div>
+                    <div>
+
+                    </div>
+                </form>
+                </div>
+            </div>
+        </section>
+        <footer class="rodabe"></footer>
+    </div>
+    
+</body>
+</html>

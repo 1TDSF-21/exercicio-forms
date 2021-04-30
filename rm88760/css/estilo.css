@@ -1,0 +1,52 @@
+#container{
+    margin-bottom: 10px;
+  }
+
+img {
+    width: 25%;
+}
+
+.cabecalho{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+li {
+    display: inline;
+    font-size: 14px;
+    margin-left: 24px;
+    margin-top: 12px;
+    list-style-type: none;
+}
+
+.frm-01 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+    font-size: 80%;
+}
+
+input[type=text] {
+    font-size: 20px;
+
+} 
+
+label.ark {
+    display: inline;
+  width: 140px;
+  text-align: right;
+
+}
+
+fieldset {
+    width: 24%;
+}
+
+.radio input[type=radio] {
+   
+}
+
+
+
+.radio input[type=radio] {
+    
+}
