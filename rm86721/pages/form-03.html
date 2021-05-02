@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/stylesform3.css">
+    <title>Formulario</title>
+</head>
+<body>
+
+    <div id='container'>
+
+        <form action="#" method="POST">
+
+            
+
+            <div class='title'>
+                <p>SISTEMA DE GESTÃO ACADÊMICA</p>
+            </div>
+
+            <div class='description'>
+                <p>MANUTENÇÃO DE USUÁRIOS DO SISTEMA INTERNO</p>
+            </div>
+
+            <div>
+                <label class='space' for="login">Login</label>
+                <input type="email" name="login">
+            </div>
+            
+            <div>
+                <label class='space password' for="password">Senha</label>
+                <input type="password" name="password">
+            </div>
+
+            <div>
+                <label class='space active' for="status">Status</label>
+                <select name="status">
+                    <option value="on">Ativo</option>
+                    <option value="off">Inativo</option>
+                </select>
+            </div>
+        
+            <div>
+                <label for="tipo" class='space tipo'>Tipo</label>
+                <input type="radio" name='tipo' value='tec'>Técnico</input>
+                <input type="radio" name='tipo' value='prof'>Professor</input>
+                <input type="radio" name='tipo' value='alu'>Aluno</input>
+            </div>
+
+            <div>
+                <label for="creation" class='space creation'>Data Criação</label>
+                <input type="text" name="creation" pattern="\d{1,2}/\d{1,2}/\d{4}" maxlength="10">
+            </div>
+
+            <div>
+                <label for="profile" class='profile'>Perfil</label>
+                <input type="radio" name='profile' value='conv'>Convidado</input>
+                <input type="radio" name='profile' value='adm'>Administrador</input>
+            </div>
+
+            <div class=obs>
+                <label for="obs" class='space'>Observações</label>
+                <textarea name="obs" cols="40" rows="5"></textarea>
+            </div>
+
+            <div>
+                <label for="modules">Módulos</label>
+                <input type="checkbox" name="modules" value='comp' class='modules'>Compras</input>
+                <input type="checkbox" name="modules" value='bibli' >Biblioteca</input>
+                <input type="checkbox" name="modules" value='acade' >Acadêmico</input><br>
+                
+                <input type="checkbox" name="modules" value='doc' class='modules another'>Documentação</input>
+                <input type="checkbox" name="modules" value='rh'>Recursos Humanos</input>
+                
+            </div>
+
+            <div>
+                <button type="submit">Cadastrar</button>
+                <button type='reset'>Excluir</button>
+            </div>
+            
+        </form>
+
+    </div>
+
+</body>
+</html>

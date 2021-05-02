@@ -1,0 +1,40 @@
+
+html{
+    font-size: 100%;
+}
+
+#firstfield{
+    width:23rem;
+    border-radius: 1rem;
+}
+
+.title{
+    margin-left: 8rem;
+    width:12rem
+}
+
+.informations{
+    margin-top: 1rem;
+    margin-left: 4.5rem;
+}
+
+.informations input{
+    width:13.3rem;
+}
+
+.email{
+    margin-left: 4.2rem;
+}
+
+.payment div {
+    padding:0.5rem
+
+}
+
+.payment div input{
+    width:12rem
+}
+
+.payment button{
+    margin-left: 7rem;
+}

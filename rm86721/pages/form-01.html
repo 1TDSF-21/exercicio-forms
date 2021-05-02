@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/stylesform1.css">
+    <title>Formulario</title>
+</head>
+
+<body>
+
+    <div id='Container'>
+
+        <form action="#" method="POST">
+            <fieldset>
+                <legend>Dados Pesoais</legend>
+                <div>
+                    <label for="name">Nome:</label>
+                    <input type="text" name='name'>
+                </div>
+
+                <div>
+                    <label for="address">Endereço:</label>
+                    <input type="text" name='address'>
+                </div>
+
+                <div>
+                    <label for="city">Cidade:</label>
+                    <input type="text" name="city">
+                </div>
+
+                <div>
+                    <label for="states">Estado:</label>
+                    <select name="select" id="states">
+                        <option value="sp">São Paulo</option>
+                        <option value="rj">Rio de janeiro</option>
+                        <option value="sc">Santa Catarina</option>
+                        <option value="choose" selected>Selecione um estado</option>
+                    </select>
+                </div>
+
+            </fieldset>
+
+            <br>
+
+            <fieldset>
+                <legend>Dados Profissionais</legend>
+
+                <div>
+                    <label for="responsibility">Natureza do Cargo</label>
+                </div>
+
+                <div>
+                    <input type="radio" name="responsibility" value='geren'> Gerência </input>
+                    <input type="radio" name="responsibility" value='finan'> Financeiro </input>
+                    <input type="radio" name="responsibility" value='recep'> Recepção </input>
+                    <input type="radio" name="responsibility" value='adm'> Administrativo </input>
+                    <input type="radio" name="responsibility" value='juri'> Juridico </input>
+                </div>
+                <br>
+                <div>
+                    <label for="interest">Área de Interesse</label>
+                </div>
+                <input type="checkbox" name="interest" value='comp'> Computação </input>
+                <input type="checkbox" name="interest" value='bio'> Biologia </input>
+                <input type="checkbox" name="interest" value='meio'> Meio Ambiente </input>
+                <input type="checkbox" name="interest" value='eng'> Engenharia </input>
+                <input type="checkbox" name="interest" value='his'> Historia </input>
+                <div>
+
+                </div>
+
+                <br>
+
+                <div>
+                    <label for="description">Mini-curriculo:</label>
+                    <textarea name="description" id="" cols="40" rows="5"></textarea>
+                </div>
+            </fieldset>
+            <br>
+            <div>
+                <button type="submit">Enviar</button>
+                <button type="reset">Limpar</button>
+            </div>
+
+        </form>
+
+    </div>
+
+</body>
+
+</html>

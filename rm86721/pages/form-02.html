@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/stylesform2.css">
+    <title>Formulario</title>
+</head>
+
+<body>
+
+    <div id="container">
+        <form action="#" method='get'>
+            <fieldset id='firstfield'>
+                <h1>Método de Pagamento</h1>
+
+                <p>Campos obrigatórios são seguidos por*.</p>
+                <div>
+                    <h2>Informações de Contato</h2>
+
+                    <fieldset class='title'>
+                        <legend>
+                            <label for="title">Título</label>
+                        </legend>
+                        <div class='options'>
+
+                            <div>
+                            <input type="radio" class='teste' name='title'> Ás </input>
+                            </div>
+
+                            <div>
+                            <input type="radio" name='title'> Rei </input>
+                            </div>
+
+                            <div>
+                            <input type="radio" name='title'> Rainha </input>
+                            </div>
+
+                        </div>
+                    </fieldset>
+
+                    <div> 
+
+                    <div class='informations'>
+                        <label for="name">Nome*:</label>
+                        <input type="text" name='name'>
+                    </div>
+
+                    <div class='informations email'>
+                        <label for="email">E-mail*:</label>
+                        <input type="text" name='name'>
+                    </div>
+
+                    <div class='informations'>
+                        <label for="password">Senha*:</label>
+                        <input type="password" name='name'>
+                    </div>
+
+                    </div>
+                </div>
+                <div class='payment'>
+                    <h2>
+                        Informações de Pagamento
+                    </h2>
+
+                    <div>
+                        <label for="card">Tipo de Cartão:</label>
+
+                        <select name="card">
+                            <option value="Visa">Visa</option>
+                            <option value="master">MasterCard</option>
+                            <option value="hiper">HiperCard</option>
+                            <option value="elo">Elo</option>
+                        </select>
+
+                    </div>
+
+                    <div>
+                        <label for="number">Número do Cartão*:</label>
+                        <input type="number" name="number">
+                    </div>
+
+                    <div>
+                        <label for="expiration">Data de expiração</label>
+                        <input type="month" name="expiration" placeholder="dd/mm/yyyy">
+                    </div>
+
+                    <div>
+                        <button type='submit'>Validar o Pagamento</button>
+                    </div>
+
+                </div>
+            </fieldset>
+        </form>
+    </div>
+
+</body>
+
+</html>
