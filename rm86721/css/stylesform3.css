@@ -1,0 +1,71 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+}
+
+html{
+    font-size: 100%;
+}
+
+.title{
+    background-color: #daa520;
+    width:40rem
+}
+
+input[type=checkbox],
+input[type=radio]{
+    background-color: #4682B4;
+
+    cursor: pointer;
+}
+
+div{
+    margin-top: 0.5rem;
+}
+
+.space{
+    margin-right:12rem;
+}
+
+.password{
+    margin-right:11.6rem;
+}
+
+.active{
+    margin-right:11.5rem;
+}
+
+.tipo{
+    margin-right:12.5rem ;
+}
+
+.creation{
+    margin-right: 8rem;
+}
+
+.profile{
+    margin-right: 12rem;
+}
+
+.obs{
+    display: flex;
+    align-items: center;
+}
+
+.obs label{
+    margin-right: 8rem;
+}
+
+.modules{
+    margin-left:10.5rem ;
+}
+
+.another{
+    margin-top: 1.5rem;
+    margin-left:15.5rem;
+}
+
+button{
+    border-color:#4682B4
+}
+
